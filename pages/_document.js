@@ -4,17 +4,6 @@ class MyDocument extends Document {
     return (
       <Html lang="en" className="scroll-smooth">
         <Head>
-          <script async src={`https://www.googletagmanager.com/gtag/js?id=G-YFZ6PXLQSP`} />
-          <script
-            dangerouslySetInnerHTML={{
-              __html: `
-                window.dataLayer = window.dataLayer || [];
-                function gtag(){dataLayer.push(arguments);}
-                gtag('js', new Date());
-                gtag('config', 'G-YFZ6PXLQSP');
-              `,
-            }}
-          />
           <link rel="apple-touch-icon" sizes="76x76" href="/static/favicons/apple-touch-icon.png" />
           <link rel="icon" type="image/png" sizes="32x32" href="/static/favicons/favicon_ai.png" />
           <link rel="icon" type="image/png" sizes="16x16" href="/static/favicons/favicon_ai.png" />
